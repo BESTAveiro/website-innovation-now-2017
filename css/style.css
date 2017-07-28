@@ -33,6 +33,10 @@ body .body {
 }
 .page {
   overflow: hidden;
+  background-image: url("../../website-innovation-now-2017/MyMainBackground.png");
+	width: 100%;
+	height: 751px;
+	background-repeat: no-repeat;
   background-color: #fff;
   padding: 50px 0;
 }
@@ -89,7 +93,7 @@ section {
 	width: 100%;
 	height: 100%;
 	z-index: 99999;
-	background: #FFF url(../img/page-loader.gif) center center no-repeat;
+	background: #FFF url("../../website-innovation-now-2017/BEST_logo.png") center center no-repeat;
 }
 .devider {
 	width: 100%;
@@ -135,6 +139,7 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar {
+	background-color: #0B610B;
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -168,7 +173,10 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url("../../website-innovation-now-2017/BEST_logo.png");
+	background-size: 70px, 100px;
+	background-repeat: no-repeat;
+	margin-top: 15%;
 }
 .navbar-shrink .navbar-brand {
 	background-image: url(../img/logo.png);
@@ -507,7 +515,9 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 .portfolio_area{}
 .portfolio{}
 .portfoloi_top{}
-.portfoloi_content_area{}
+.portfoloi_content_area{
+
+}
 .portfolio_menu{
 	text-align: center;
 	overflow: hidden;
@@ -537,7 +547,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	left: 0;
 	width: 100%;
 	z-index: 5;
-	margin-bottom:30px;
+	margin-bottom:90px;
 	overflow:hidden;
 	
 }
@@ -597,7 +607,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	opacity:1;
 }
 .portfolio_single_content div a{
-	color: #FFFFFF;
+	color: #0B610B;
 	display: block;
 	font-size: 18px;
 	font-weight: bold;
