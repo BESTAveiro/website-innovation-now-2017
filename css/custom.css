@@ -1,0 +1,15 @@
+li a.page-scroll.whiteText
+{
+    color: #ffffff;
+}
+
+li a.page-scroll.whiteText:hover
+{
+    color: #96ff9b;
+}
+
+li.active a.page-scroll.whiteText
+{
+    color: #96ff9b !important;
+    background-color: transparent !important;
+}
