@@ -7,6 +7,10 @@ li a.page-scroll.whiteText:hover
 {
     color: #96ff9b;
 }
+li a.page-scroll.whiteText:active
+{
+    color: #96ff9b;
+}
 
 li.active a.page-scroll.whiteText
 {
@@ -14,6 +18,8 @@ li.active a.page-scroll.whiteText
     background-color: transparent !important;
 }
 
+
+/*to center the navbar*/
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -24,4 +30,35 @@ li.active a.page-scroll.whiteText
     .navbar .navbar-collapse {
         text-align: center;
     }
+}
+
+.pad-row
+{
+    padding:100px 50px 100px 50px;
+}
+
+.caviar
+{
+    font-family: "Muli";
+}
+
+.bgWhite
+{
+    background: url(../img/backgrounds/bg1.png);
+}
+
+.bgStripes
+{
+    background: url(../img/backgrounds/bg2.png);
+    /*background-color: #2aa13e;*/
+}
+
+.blackText p
+{
+    color: #000000;
+}
+
+.allWidth
+{
+    width: 100%;
 }
