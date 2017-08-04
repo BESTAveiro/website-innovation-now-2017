@@ -497,25 +497,7 @@ ul {
 }
 
 
-.pillhorario{
-  color: #fff;
-  display: inline-block;
-  text-decoration: none;
-  font-family: 'Poiret One', cursive;
-  font-size: 22px;
-  overflow: hidden;
-  vertical-align: top;
-  -webkit-perspective: 600px;
-  -moz-perspective: 600px;
-  -ms-perspective: 600px;
-  perspective: 600px;
-  -webkit-perspective-origin: 50% 50%;
-  -moz-perspective-origin: 50% 50%;
-  -ms-perspective-origin: 50% 50%;
-  perspective-origin: 50% 50%;
-  margin-bottom: 20px;
-  padding: 5px
-}
+
 
 .nav-pills > li{
   background-color: #439B35;
