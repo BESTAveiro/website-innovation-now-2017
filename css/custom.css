@@ -88,3 +88,14 @@ li.active a.page-scroll.whiteText
 {
     display: inline-block;
 }
+
+footer{
+    background-color: black;
+    display: block;
+    width: 100%;
+}
+
+footer .margin-row
+{
+    margin: 20px 0 20px 0;
+}
