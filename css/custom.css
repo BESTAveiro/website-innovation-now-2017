@@ -58,9 +58,19 @@ li.active a.page-scroll.whiteText
     color: #000000;
 }
 
+.blackText
+{
+    color: #000000;
+}
+
 .allWidth
 {
     width: 100%;
+}
+
+.as
+{
+    display: block;
 }
 
 
@@ -98,4 +108,17 @@ footer{
 footer .margin-row
 {
     margin: 20px 0 20px 0;
+}
+
+.modalMarginTop
+{
+    /*margin-top:50px;*/
+    z-index: 9999;
+}
+
+.modal-title
+{
+    font-family: "Muli";
+    font-weight: bold;
+    font-size:40px;
 }
