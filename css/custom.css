@@ -34,7 +34,7 @@ li.active a.page-scroll.whiteText
 
 .pad-row
 {
-    padding:100px 50px 100px 50px;
+    padding:70px 50px 100px 50px;
 }
 
 .caviar
@@ -113,6 +113,7 @@ footer .margin-row
 .modalMarginTop
 {
     /*margin-top:50px;*/
+    /*to show the modal on top of the nav bar*/
     z-index: 9999;
 }
 
