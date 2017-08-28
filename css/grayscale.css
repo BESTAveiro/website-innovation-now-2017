@@ -99,29 +99,6 @@ p {
     }
 }
 
-a {
-    color: #2F7330;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    outline: none;
-}
-
-.as {
-    color: black;
-    font-weight: bold;
-    font-size: 22px!important;
-}
-.as2 {
-    color: #3d3d3d;
-    font-weight: bold;
-    font-size: 22px!important;
-}
-.as3 {
-    color: #3d3d3d;
-    font-weight: normal;
-    font-size: 18px!important;
-}
 
 a:hover,
 a:focus {

@@ -1,0 +1,89 @@
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.portfolio-box .portfolio-box-caption {
+    color: white;
+    opacity: 0;
+    display: block;
+    background: #0B610B;  /*Parceiros: Cor quando se passa o rato nos logos das empresas*/
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    /*font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;*/
+    font-family: font61313;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 15px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 0.95;
+}
+.portfolio-box:focus {
+    outline: none;
+}
+@media (min-width: 768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+
+
+.partnersPortfolioBox
+{
+    height: 200px;
+}
+
+
+
+.contactImages
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: column;
+
+    /*max-height: 100%;*/
+    /*max-height: 100%;*/
+    max-height: 200px;
+    /*margin: auto;*/
+    /*height: auto;*/
+    vertical-align: middle !important;
+    /*max-width: 100%;*/
+    width: auto;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
