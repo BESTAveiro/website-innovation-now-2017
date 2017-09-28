@@ -72,12 +72,12 @@
     flex-flow: column;
 
     /*max-height: 100%;*/
-    /*max-height: 100%;*/
-    max-height: 200px;
+    max-height: 100%;
+    /*max-height: 200px;*/
     /*margin: auto;*/
     /*height: auto;*/
     vertical-align: middle !important;
-    /*max-width: 100%;*/
+    max-width: 80%;
     width: auto;
 
     position: absolute;
