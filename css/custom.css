@@ -165,13 +165,14 @@ a {
     margin-bottom: 50px;
 }
 
+.margin-more
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .limitHeight
 {
     max-height:300px;
     width: auto;
-}
-
-.pad-row-partnership-category
-{
-    margin: 100px 50px 100px 50px;
 }
