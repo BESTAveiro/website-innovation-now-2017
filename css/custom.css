@@ -165,6 +165,16 @@ a {
     margin-bottom: 50px;
 }
 
+/*1200px é a partir do qual se torna lg*/
+@media (min-width: 1200px)
+{
+    .margin-more-lg
+    {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
 .margin-more
 {
     margin-top: 70px;
