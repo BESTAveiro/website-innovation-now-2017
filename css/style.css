@@ -757,6 +757,13 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	margin: 0;
 	font-size: 48px;
 }
+.prices .panel-body .discount {
+	margin: 0;
+	padding:0;
+	font-size: 40px;
+	color:#912e1c;
+	font-weight:bold;
+}
 .prices .panel-footer {
 	padding: 25px 15px;
 }
